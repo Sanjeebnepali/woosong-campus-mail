@@ -1,0 +1,44 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Build output
+/.next/
+/.next-*/
+/out/
+/build
+*.tsbuildinfo
+next-env.d.ts
+
+# Secrets & environment (never commit) — the example file is the only one tracked
+.env
+.env.*
+!.env.example
+
+# Deployment tooling
+/.vercel
+
+# Private data: full faculty seed with real emails, database dumps, course/team documents
+/private/
+mysql_campusmail_project.sql
+*.sql
+SmartTech_Week1_Report_and_Schedule.csv
+ABJABBOROV_UGLI_DATA_ANALYST_TASK.md
+YAN_JINWOO_SQL_DEVELOPER_TASK.md
+SUBMISSION_FILL_IN_GUIDE.md
+DATABASE_STUDY_GUIDE.md
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Not published to GitHub (kept locally)
+package.json
+package-lock.json

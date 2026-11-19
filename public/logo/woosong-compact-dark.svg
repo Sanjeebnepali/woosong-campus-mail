@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="385 100 1400 500" role="img" aria-label="Woosong University">
+  <title>Woosong University</title>
+  <path fill-rule="evenodd" fill="#0B7A2B" d="M600 105a200 200 0 1 0 .01 0Z M600 199a106 106 0 1 1-.01 0Z"/>
+  <polygon fill="#1A5FD0" points="1097,124 1355,382 1263,474 1097,308 931,474 839,382"/>
+  <path fill="#E4143C" d="M1416 124H1780V224H1516V381H1780V481H1416Z"/>
+  <text x="1085" y="590" text-anchor="middle" fill="#fff" font-family="'Montserrat','Arial Black','Segoe UI',Arial,sans-serif" font-weight="800" font-size="78" textLength="1390" lengthAdjust="spacingAndGlyphs">WOOSONG UNIVERSITY</text>
+</svg>

@@ -1,0 +1,51 @@
+/**
+ * @file src/app/globals.css
+ * @description Global CSS stylesheet configuring official university typography
+ * (Noto Sans KR, Malgun Gothic / 맑은 고딕, Noto Sans SC for Chinese, Noto Sans for Vietnamese/English)
+ * and comfortable, accessible font sizing (16px base).
+ */
+
+@import "tailwindcss";
+
+:root {
+  --font-university: "Noto Sans KR Variable", "Malgun Gothic", "맑은 고딕", "Noto Sans SC Variable",
+    "Noto Sans Variable", "Apple SD Gothic Neo", "Segoe UI", Roboto, sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-university);
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #f7f9fa;
+  color: #212529;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.01em;
+  overflow-wrap: break-word;
+}
+
+/* Korean: never split a word across lines (e.g. "소프트웨어학/부"); Chinese keeps default per-character wrapping */
+:lang(ko) {
+  word-break: keep-all;
+}
+
+/* Visible keyboard focus for every interactive element (WCAG 2.4.7) */
+:focus-visible {
+  outline: 3px solid #1a5fd0;
+  outline-offset: 2px;
+}
+
+/* Respect users who ask for less motion (WCAG 2.3.3) */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
